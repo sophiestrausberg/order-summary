@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin: 0;
+}
+
+h4 {
+    color: hsl(223, 47%, 23%);
+    margin: 0;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    margin: 0;
+}
+
+.card {
+    z-index: 1;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr;
+    width: min-content;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.text {
+    margin: 3em;
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 1.5em;
+    text-align: center;
+}
+
+.background {
+    z-index: 0;
+}
+
+.btn1 {
+    color:white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 1em 4em;
+    text-decoration: none;
+    box-shadow: 0px 10px 30px hsla(245, 75%, 52%, 0.303);
+    border-radius: 1em;
+}
+
+.btn1:hover {
+    background-color: hsla(245, 75%, 52%, 0.726);
+}
+
+.btn2 {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.btn2:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.btn3:hover {
+    color: hsla(245, 75%, 52%, 0.726);
+}
+
+.plan-parent {
+    display: flex;
+    align-items: center;
+    background-color: hsla(225, 100%, 94%, 0.424);
+    padding: 1.5em 0;
+    justify-content: space-evenly;
+    border-radius: 1em;
+}
+
+.plan {
+    display: flex;
+    margin-right: 3em;
+}
+
+.plan-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
